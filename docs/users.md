@@ -13,15 +13,14 @@ As of current knowledge, fractureiser specifically tagets Linux and Windows inst
 * Open your Start menu with the Windows Key, and type `%localappdata%` - it should appear as such:
 ![](media/localappdata.png)
 
-* Inside the Local appdata folder, you must ensure that your Explorer is set to view both `Hidden Items`, and `Protected Operating System Files`. 
- * This can be done from View > Options
- * If you are unsure how to do this, a video explanation [can be found here](https://youtu.be/KLTlTlnXeKs).
-
-
-* Locate a folder named `Microsoft Edge`. The SPACE between "Microsoft" and "Edge" is important - as `MicrosoftEdge` is a legitimate folder that is used by Edge. The virus simply named it like that to disguise itself.
-* If `Microsoft Edge` is present, you were infected. If this is the case, permanently delete the folder and everything inside it.
- * If the folder can not be deleted, you must stop any Java programs currently running via your Task Manager.
-   * There is a detection tool by eitambelahousky at https://github.com/overwolf/detection-tool to automate this 
+* Inside the Local appdata folder, you must ensure that your Explorer is set to view both `Hidden Items`, and `Protected Operating System Files`.
+  * This can be done from View > Options.
+  * If you are unsure how to do this, a video explanation [can be found here](https://youtu.be/KLTlTlnXeKs).
+  * There is a dectection tool by eitambelahousky at <https://github.com/overwolf/detection-tool> to automate this.
+* Locate a folder named `Microsoft Edge`.
+  * The SPACE between "Microsoft" and "Edge" is important - as `MicrosoftEdge` is a legitimate folder that is used by Edge. The virus simply named it like that to disguise itself.
+  * If `Microsoft Edge` is present, you were infected. If this is the case, permanently delete the folder and everything inside it.
+  * If the folder can not be deleted, you must stop any Java programs currently running via your Task Manager.
 
 Afterwards, follow onto the next section of this page that is relevant to you.
 
