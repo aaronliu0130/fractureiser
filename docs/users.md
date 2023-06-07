@@ -1,4 +1,4 @@
-# Mod Player Guide
+# Modded Players Guide
 
 If you're a Modded Minecraft player, you need to verify if you have been infected by the fractureiser malware to ensure your machine and personal data are not at risk. You can do so with the instructions below.
 
@@ -11,8 +11,7 @@ As of current knowledge, fractureiser specifically tagets Linux and Windows inst
 ### Windows Instructions
 
 * Open your Start menu with the Windows Key, and type `%localappdata%` - it should appear as such:
-![](media/localappdata.png)
-
+![A Windows 10 search box with "%localappdata%" entered showing a single result which is a folder.](media/localappdata.png)
 * Inside the Local appdata folder, you must ensure that your Explorer is set to view both `Hidden Items`, and `Protected Operating System Files`.
   * This can be done from View > Options.
   * If you are unsure how to do this, a video explanation [can be found here](https://youtu.be/KLTlTlnXeKs).
